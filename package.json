@@ -1,0 +1,19 @@
+{
+  "name": "thumbsup_bc",
+  "version": "0.1.0",
+  "description": "Pic Converter BC",
+  "main": "app.js",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "sharp": "^0.21.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start25": "node app.js 025 120",
+    "start29": "node app.js 029 120"
+  },
+  "author": "",
+  "license": "ISC"
+}
