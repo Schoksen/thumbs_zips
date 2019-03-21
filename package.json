@@ -10,9 +10,14 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "start25": "node app.js 025 120",
-    "start29": "node app.js 029 120"
+    "start": "node thumbs.js",
+    "start18": "node thumbs.js 1800",
+    "start25": "node thumbs.js 2500",
+    "startf": "node folder_thumbs.js",
+    "startf18": "node folder_thumbs.js 1800",
+    "startf25": "node folder_thumbs.js 2500",
+    "zip": "node zips.js",
+    "zips": "node zips.js Images"
   },
   "author": "",
   "license": "ISC"
